@@ -3,7 +3,7 @@ import styles from './PostModelo.module.css'
 
 export default function PostModelo( {children, fotoCapa, titulo} ) {
     return (
-        <artcile className={styles.postModeloContainer}>
+        <article className={styles.postModeloContainer}>
             <div className={styles.fotoCapa} style={{backgroundImage: `url(${fotoCapa})`}}>
             </div>
 
@@ -14,6 +14,6 @@ export default function PostModelo( {children, fotoCapa, titulo} ) {
             <div className={styles.postConteudoContainer}>
                 {children}
             </div>
-        </artcile>
+        </article>
     )
 }
