@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Post.module.css'
+import styles from './PostCard.module.css'
 import { Link } from 'react-router-dom';
 import BotaoPrincipal from 'componentes/BotaoPrincipal';
 
